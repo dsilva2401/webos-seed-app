@@ -1,40 +1,15 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style type="text/css">
-body {
-	margin: 0;
-	padding: 0;
-	color : #330000;
-	font-size: 40px
-} 
 
-h1 {
-	color : #FFFFFF; 
-	font-size: 60px
-}
+	<head></head>
 
-div {
-	font-size: 40px; 
-	size="60px"
-}
-.btn {
-	font-size: 40px; 
-	width:300px; 
-	height:70px;
-}
-</style>
-<script type="text/javascript" src="js/script.js"></script>
-<script type="text/javascript" src="lib/webOS.js"></script> 
-</head>
-<body>
-	<div>
-	<h1>JS SERVICE SAMPLExy</h1> 
+	<body ng-app="app">
+		
+		<app></app>
 
-	<input type="button" value="CALL SERVICE" onclick="displayReponse()" class="btn">
-	<input type="text" id="input" class="btn">
-	<p id="result1"></p>
-	<p id="result2"></p>
-	</div>
-</body>
+		<script type="text/javascript" src="lib/webOS.js"></script> 
+		<script type="text/javascript" src="lib/angular.min.js"></script> 
+		<script type="text/javascript" src="src/app.js"></script>
+	</body>
+
 </html>
