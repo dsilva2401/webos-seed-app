@@ -6,7 +6,7 @@ WebOS Seed app
 
 ## Commands
 
-Open emulator on MacOS
+Open emulator on Mac
 ```bash
 gulp emulator[macos]
 ```
