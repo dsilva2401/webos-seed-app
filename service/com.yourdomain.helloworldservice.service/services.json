@@ -1,0 +1,14 @@
+{
+	"id": "com.yourdomain.helloworldservice.service",
+	"description": "HelloWorld Service",
+	"services": [ {
+		"name": "com.yourdomain.helloworldservice.service",
+		"description": "HelloWorld Service",
+		"commands": [ { 
+			"name": "hello", 
+			"public": true
+				}
+			] 
+		} 
+	]
+}
