@@ -16,7 +16,7 @@ var runSequence = require('run-sequence');
     }
 
 // Tasks
-    gulp.task('mac:emulator', function () {
+    gulp.task('emulator[macos]', function () {
         var emulatorPath = '$WEBOS_CLI_TV/../../Emulator/';
         var emulatorsList = shell.exec('ls '+emulatorPath).split('\n');
         var emilatorVersion = emulatorsList[emulatorsList.length-2];
